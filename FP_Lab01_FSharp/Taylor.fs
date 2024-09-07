@@ -35,10 +35,8 @@ let rec taylorSmart (x: float) n (prev: float) (acc: float) =
         let newAcc = acc + newPrev
         taylorSmart x (n + 1) newPrev newAcc
 
-
-
-
 let main = 
+    // Красивый вывод таблички
     printfn "|--------------------------------------------------------------------|"
     printfn "| %5s | %10s | %10s | %5s |  %10s | %5s |" "x" "Builtin" "Smart Taylor" "#terms" "Dumb Taylor" "#terms"
     printfn "|--------------------------------------------------------------------|"
