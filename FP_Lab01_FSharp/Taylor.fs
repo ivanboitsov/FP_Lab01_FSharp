@@ -48,7 +48,7 @@ let main =
         // Вычисление функции умным методом
         let smartResult, _ =  taylorSmart x 1 x x
         // Вывод 
-        printfn "| %5.2f | %10.6f | %12.6f | %6d | %12.6f | %6d |" x  (f x) dumbResult i smartResult i
+        printfn "| %5.2f | %10.6f | %12.6f | %6d | %12.6f | %6d |" x  (f x) smartResult i dumbResult i
         printfn "|--------------------------------------------------------------------|"
 
 // Запуск программы
