@@ -48,7 +48,7 @@ let f3' x: float = (-2.*x)/(5. * System.Math.Sqrt(1. - ((2.*(x**2.))/5.))) - (1.
 // Выражение x из первоначального уравнения
 let phi1 x : float =  (4. * System.Math.Log x + 5.) / 3. // #23
 
-let phi2 x : float = 2./(System.Math.Acos(System.Math.Sin(1./x)*2.0 - 1./x)) // #24
+let phi2 x : float = 2./(System.Math.Acos(System.Math.Sin(1./x)*2. - 1./x)) // #24
 
 let phi3 x : float = System.Math.Sin(System.Math.Sqrt(1. - 0.4 * (x ** 2.))) // #25
 
